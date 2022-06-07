@@ -1,0 +1,31 @@
+{
+    "name": "aa",
+    "version": "0.1.0",
+    "description": "Generated with generator-harp.gl 0.28.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "start": "webpack serve"
+    },
+    "author": "",
+    "private": true,
+    "dependencies": {
+        "@here/harp-datasource-protocol": "^0.28.0",
+        "@here/harp-geoutils": "^0.28.0",
+        "@here/harp-map-controls": "^0.28.0",
+        "@here/harp-map-theme": "^0.28.0",
+        "@here/harp-mapview": "^0.28.0",
+        "@here/harp-vectortile-datasource": "^0.28.0",
+        "@here/harp-webpack-utils": "^0.28.0",
+        "dat.gui": "^0.7.9",
+        "three": "^0.129.0"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.36",
+        "ts-loader": "^9.3.0",
+        "typescript": "^4.7.2",
+        "webpack": "^5.72.1",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.9.0"
+    }
+}
